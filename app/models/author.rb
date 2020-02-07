@@ -5,7 +5,7 @@ class Author < ActiveRecord::Base
         uniqueness: true
         }
 
-    validates :number, {
+    validates :phone_number, {
         presence: true,
         length: { is: 10}
         }
